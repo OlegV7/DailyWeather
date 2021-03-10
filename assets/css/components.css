@@ -1,0 +1,120 @@
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 3rem 7rem;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-text-primary);
+}
+
+.nav-settings {
+    font-size: 3.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+/* MAIN */
+.main-section {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* List of all days */
+.days-list {
+    list-style: none;
+    display: flex;
+}
+
+.day {
+    border: 1px solid var(--color-primary-light);
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 2rem 3rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.day:hover {
+    transform: scale(1.08);
+}
+
+.day-name {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.day-degree {
+    font-size: 2.2rem;
+}
+
+/* Single day description */
+.single-day {
+    background-color: var(--color-primary);
+    max-width: 60rem;
+    height: 100%;
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-day__name {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-info__degree {
+    font-weight: 400;
+    font-size: 5.5rem;
+}
+
+.details-list {
+    font-size: 1.4rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Settings modal */
+/* .modal {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.modal-card {
+    background-color: var(--color-primary);
+    opacity: 1;
+} */

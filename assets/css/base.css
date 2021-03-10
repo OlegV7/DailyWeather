@@ -1,0 +1,26 @@
+:root {
+    --color-primary:        #03A9F4;
+    --color-primary-dark:   #0288D1;
+    --color-primary-light:  #B3E5FC;
+    --color-text-primary:   #212121;
+    --color-text-dark:      #757575;
+    --color-text-light:     #BDBDBD;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-primary-light);
+}
