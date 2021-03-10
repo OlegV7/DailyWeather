@@ -20,6 +20,28 @@
     text-decoration: none;
 }
 
+.btn-group {
+    display: flex;
+    align-items: center;
+}
+
+.btn-group > a {
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+    background-color: var(--color-primary-light);
+    transition: all 0.2s;
+}
+
+.btn-group > a:hover {
+    transform: translateY(-3px);
+}
+
 /* MAIN */
 .main-section {
     margin-top: 5rem;
@@ -105,16 +127,3 @@
     padding: 1rem;
     font-size: 1.2rem;
 }
-
-/* Settings modal */
-/* .modal {
-    width: 100vw;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-}
-
-.modal-card {
-    background-color: var(--color-primary);
-    opacity: 1;
-} */
