@@ -17,6 +17,18 @@ html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
 }
+/* 
+@media all and (max-width: 1100px) {
+    html {
+        font-size: 7.5px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    html {
+        font-size: 6px;
+    }
+} */
 
 body {
     margin: 0;

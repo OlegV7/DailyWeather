@@ -70,8 +70,8 @@ function dayData(day) {
 
                 <ul class="details-list">
                     <li class="details-item">Wind Direction: <span class="direction">${day.windDirection} <span class="direction-arrow">${arrow}</span></span></li>
-                    <li class="details-item">Wind Speed: <span class="speed-type">${day.windSpeed}</span> <span class="speed-sign">${isKilometar ? "km/h" : "m/s"}</span></li>
-                    <li class="details-item">Today's gonna be <span class="day-type">${day.type}</span></li>
+                    <li class="details-item">Wind Speed: <span class="speed-type">${day.windSpeed}</span> <span class="speed-sign">${isKilometar ? "km/h" : "m/s"}</span>.</li>
+                    <li class="details-item">Today's gonna be <span class="day-type">${day.type}.</span></li>
                 </ul>
             </div>
             `;
